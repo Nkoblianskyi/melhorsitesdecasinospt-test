@@ -14,10 +14,10 @@ const merriweather = Merriweather({
 })
 
 export const metadata: Metadata = {
-  title: "Casino Review Portugal - Análises Independentes de Casinos Online",
+  title: "Casino Review Portugal - Análises Independentes de Casinos",
   description:
     "Jornal digital de análises de casinos online em Portugal. Rankings profissionais, notícias e avaliações independentes dos melhores casinos licenciados pelo SRIJ.",
-    generator: 'v0.app'
+
 }
 
 export default function RootLayout({
