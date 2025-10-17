@@ -6,7 +6,7 @@ export interface Casino {
   rating: number
   bonus: string
   features: string[]
-  badge: string
+  badge?: string
   reviews: number
   isTopChoice?: boolean
   url: string
@@ -66,7 +66,7 @@ export const casinos: Casino[] = [
     rank: 5,
     name: "Lebull",
     logo: "/lebull.svg",
-    rating: 9.0,
+    rating: 9.1,
     bonus: "250% até 400€ + 50€ de Aposta Grátis",
     features: ["Bónus Generoso", "Variedade de Jogos", "Suporte Português"],
     url: "https://www.lebull.pt/",
