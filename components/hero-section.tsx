@@ -10,14 +10,16 @@ export function HeroSection() {
   })
 
   return (
-    <section className="relative border-b-2 border-border h-[200px] md:h-[270px] overflow-hidden"
-      style={
-        {
-          backgroundImage: '/hero.jpg'
-        }
-      }
+    <section
+      className="relative border-b-2 border-border h-[200px] md:h-[270px] overflow-hidden"
+      style={{
+        backgroundImage: "url(/hero.jpg)",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
     >
-      <div className="max-w-7xl mx-auto px-4 pt-3 pb-2 md:pt-4 md:pb-3 h-full flex flex-col justify-start">
+      <div className="absolute top-0 left-0 right-0 bottom-0 " ></div>
+      <div className="w-full mx-auto px-4 pt-3 pb-2 md:pt-4 md:pb-3 h-full flex flex-col justify-start bg-black/70">
         {/* Main headline - newspaper style */}
         <div className="text-center space-y-1 md:space-y-3 mb-2 md:mb-4">
           <div className="inline-block px-2 py-0.5 bg-primary text-primary-foreground text-[9px] md:text-xs font-bold uppercase tracking-widest">
