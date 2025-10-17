@@ -31,7 +31,7 @@ export function Header() {
           {/* Center: Logo with name - reduced size and simplified to one line */}
           <Link href="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
             <Image src="/favicon.ico" alt="melhorsitesdecasinospt logo" width={32} height={32} />
-            <h1 className="text-sm md:text-2xl lg:text-3xl font-black font-serif tracking-tight text-foreground uppercase">
+            <h1 className="text-sm md:text-xl lg:text-2xl font-black font-serif tracking-tight text-foreground uppercase">
               melhorsitesdecasinospt
             </h1>
           </Link>
